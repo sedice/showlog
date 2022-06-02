@@ -1,9 +1,11 @@
 lockfileVersion: 5.3
 
 specifiers:
+  dayjs: ^1.11.2
   shelljs: ^0.8.5
 
 dependencies:
+  dayjs: registry.npmmirror.com/dayjs/1.11.2
   shelljs: registry.npmmirror.com/shelljs/0.8.5
 
 packages:
@@ -27,6 +29,12 @@ packages:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/concat-map/-/concat-map-0.0.1.tgz}
     name: concat-map
     version: 0.0.1
+    dev: false
+
+  registry.npmmirror.com/dayjs/1.11.2:
+    resolution: {integrity: sha512-F4LXf1OeU9hrSYRPTTj/6FbO4HTjPKXvEIC1P2kcnFurViINCVk3ZV0xAS3XVx9MkMsXbbqlK6hjseaYbgKEHw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/dayjs/-/dayjs-1.11.2.tgz}
+    name: dayjs
+    version: 1.11.2
     dev: false
 
   registry.npmmirror.com/fs.realpath/1.0.0:
